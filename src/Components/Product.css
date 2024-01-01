@@ -4,7 +4,6 @@
 }
 
 .product{
-
     background-color: aqua;
     margin: 20px;
     border-radius: 10px;
@@ -14,7 +13,6 @@
 }
 .product:hover {
     background-color: aquamarine;
-    
     transform: scale(1.1);
 }
 .product p{
