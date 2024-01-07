@@ -20,11 +20,11 @@
     transition: transform 0.1s ease;
 }
 .activeProduct:hover{
-    background-color: aquamarine;
+    
     transform: scale(1.1);
 }
 .product:hover {
-    background-color: aquamarine;
+    
     transform: scale(1.1);
 }
 p{
