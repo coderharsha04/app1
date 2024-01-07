@@ -4,7 +4,6 @@
 }
 
 .product{
-
     background-color: aqua;
     margin: 20px;
     border-radius: 10px;
@@ -12,14 +11,25 @@
     cursor: pointer;
     transition: transform 0.1s ease;
 }
-.product:hover {
-    background-color: aquamarine;
+.activeProduct{
+    background-color: rgb(171, 242, 105);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.activeProduct:hover{
     
     transform: scale(1.1);
 }
-.product p{
+.product:hover {
+    
+    transform: scale(1.1);
+}
+p{
     margin: 0;
 }
-.product h1{
+h1{
     margin:0;
 }

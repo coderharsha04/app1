@@ -1,13 +1,10 @@
 import "./Product.css";
 
-function Product({ name, desc }) {
-  function handleClick() {
-    window.alert("hello");
-  }
+function Product({name, desc, handleClick, isSelected }) {
   return (
-    <div className="product" onClick={handleClick}>
+    <div className={isSelected?"activeProduct":"product"} onClick={handleClick}>
       <h1>{name}</h1>
-      <p className="description">
+      <p>
         {desc}
       </p>
     </div>
