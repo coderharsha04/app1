@@ -11,7 +11,7 @@ function Products() {
     else if (val === "2") {
       setMessage("Second Product clicked");
     }
-    else{
+    else {
       setMessage("Third Product clicked");
     }
   }
@@ -24,6 +24,7 @@ function Products() {
           handleClick={() => {
             handleClick("1");
           }}
+          isSelected={message === "First Product clicked"}
         />
         <Product
           name="Bajaj Tea"
@@ -31,6 +32,7 @@ function Products() {
           handleClick={() => {
             handleClick("2");
           }}
+          isSelected={message === "Second Product clicked"}
         />
         <Product
           name="Bajaj Roaster"
@@ -38,6 +40,7 @@ function Products() {
           handleClick={() => {
             handleClick("3");
           }}
+          isSelected={message === "Third Product clicked"}
         />
       </div>
       <p>{message}</p>
